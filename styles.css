@@ -945,7 +945,7 @@ main {
 }
 
 /* ==========================================================================
-   Pre-Built Archival Plate Gallery (Ready for Step 2 Photography & Drawings)
+   Archival Plate Gallery (Field Photography & Ceramic Illustration Plates)
    ========================================================================== */
 
 .plate-grid {
@@ -966,10 +966,22 @@ main {
 .plate-figure img {
   display: block;
   inline-size: 100%;
+  block-size: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 2px;
   border: 1px solid var(--rule-hairline);
+}
+
+.plate-figure--drawing img {
+  object-fit: contain;
+  background-color: #FFFFFF;
+  padding: 0.35rem;
+}
+
+.plate-figure--wide img {
+  object-fit: contain;
+  background-color: var(--bg-subtle);
 }
 
 .plate-figure figcaption {
