@@ -6,6 +6,11 @@
   <meta name="color-scheme" content="light dark">
   <title>Academic | Pınar Ceylan</title>
   <meta name="description" content="Academic qualifications, MA and BA theses on Anatolian and survey ceramics, research themes, and publications of Pınar Ceylan.">
+  <link rel="canonical" href="https://orcunkoraliseri.github.io/PinarWebsite/academic.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Academic Profile &amp; Publications | Pınar Ceylan">
+  <meta property="og:description" content="MA Classical Archaeology (Selçuk University), survey ceramic illustrations, research themes, and published papers by Pınar Ceylan.">
+  <meta property="og:url" content="https://orcunkoraliseri.github.io/PinarWebsite/academic.html">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -275,43 +280,88 @@
 
       <div class="plate-grid">
         <figure class="plate-figure">
-          <img
-            src="assets/images/yahyali-mound-landscape.webp"
-            alt="Wide landscape view of Yahyalı Mound and surrounding cultivated plain in the Suğla Lake basin"
-            width="1200"
-            height="800"
-            loading="lazy"
-            decoding="async"
+          <button
+            type="button"
+            class="plate-trigger"
+            data-lightbox-trigger
+            aria-label="Enlarge Yahyalı Mound landscape plate"
           >
-          <figcaption>Yahyalı Mound in the Suğla Lake region, Konya: focus site of the 2024 MA thesis surface-survey ceramic study.</figcaption>
+            <img
+              src="assets/images/yahyali-mound-landscape.webp"
+              alt="Wide landscape view of Yahyalı Mound and surrounding cultivated plain in the Suğla Lake basin"
+              width="1200"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            >
+          </button>
+          <figcaption>
+            Yahyalı Mound in the Suğla Lake basin, Konya: focus site of the 2024 MA thesis surface-survey ceramic study. From P. Ceylan, MA thesis, Selçuk University (2024), supervised by Assoc. Prof. R. Gündüz.
+            <span class="plate-hint">Click plate to inspect full resolution</span>
+          </figcaption>
         </figure>
 
         <figure class="plate-figure plate-figure--drawing">
-          <img
-            src="assets/images/yahyali-yh20-t2-30-profile.webp"
-            alt="Digital ceramic profile drawing YH20-T2-30 showing rim stance, solid black wall section, and 5 cm scale bar"
-            width="1000"
-            height="769"
-            loading="lazy"
-            decoding="async"
+          <button
+            type="button"
+            class="plate-trigger"
+            data-lightbox-trigger
+            aria-label="Enlarge CorelDRAW ceramic profile drawing YH20-T2-30"
           >
-          <figcaption>Diagnostic Late Neolithic bowl rim profile (YH20-T2-30; rim diameter 11 cm, Munsell 5YR 5/6) drawn by hand and inked in CorelDRAW.</figcaption>
+            <img
+              src="assets/images/yahyali-yh20-t2-30-profile.webp"
+              alt="Digital ceramic profile drawing YH20-T2-30 showing rim stance, solid black wall section, and 5 cm scale bar"
+              width="1000"
+              height="769"
+              loading="lazy"
+              decoding="async"
+            >
+          </button>
+          <figcaption>
+            Diagnostic Late Neolithic bowl rim profile (YH20-T2-30; rim diameter 11 cm, Munsell 5YR 5/6) drawn by hand and digitally inked in CorelDRAW. Illustration &copy; Pınar Ceylan; Selçuk University MA thesis (2024).
+            <span class="plate-hint">Click plate to inspect full resolution</span>
+          </figcaption>
         </figure>
 
         <figure class="plate-figure plate-figure--drawing">
-          <img
-            src="assets/images/gokhoyuk-gh23-g4-t1-04-drawing.webp"
-            alt="Stippled exterior sherd illustration and sectioned lugged vessel rim profile GH23-G4-B1-T1-04 with 5 cm scale bar"
-            width="1000"
-            height="709"
-            loading="lazy"
-            decoding="async"
+          <button
+            type="button"
+            class="plate-trigger"
+            data-lightbox-trigger
+            aria-label="Enlarge ceramic illustration convention diagram"
           >
-          <figcaption>Lug-handled vessel sherd illustration and profile section (GH23-G4-B1-T1-04) from the 2023 Gökhöyük Trench G4 season.</figcaption>
+            <img
+              src="assets/images/ceramic-conventions-plate.svg"
+              alt="Technical plate showing orthographic split-axis ceramic drawing conventions, deliberate rim-line gap, solid versus hatched section fills, and 5 cm metric scale bar"
+              width="1000"
+              height="720"
+              loading="lazy"
+              decoding="async"
+            >
+          </button>
+          <figcaption>
+            Drafting conventions used in pottery plate preparation: orthographic split cutaway, rim-line gap, wheel-made solid vs. handmade hatched wall fills, and drawn metric scale. Original diagram &copy; Pınar Ceylan.
+            <span class="plate-hint">Click plate to inspect full resolution</span>
+          </figcaption>
         </figure>
       </div>
     </section>
   </main>
+
+  <dialog id="plate-lightbox" class="plate-lightbox" closedby="any" aria-labelledby="lightbox-title">
+    <div class="lightbox-head">
+      <h2 id="lightbox-title" class="lightbox-title">Archival Plate Inspection</h2>
+      <form method="dialog">
+        <button class="lightbox-close" value="close" autofocus>Close</button>
+      </form>
+    </div>
+    <div class="lightbox-body">
+      <div class="lightbox-stage">
+        <img class="lightbox-img" alt="">
+      </div>
+      <p class="lightbox-caption"></p>
+    </div>
+  </dialog>
 
   <footer class="site-footer">
     <div class="container">

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" fill="none">
+  <rect width="1000" height="720" fill="#FCF9F4"/>
+  <rect x="24" y="24" width="952" height="672" stroke="#877B6E" stroke-width="1.5"/>
+  <path d="M40 48h16M48 40v16M944 48h16M952 40v16M40 672h16M48 664v16M944 672h16M952 664v16" stroke="#9A4326" stroke-width="1.6"/>
+
+  <!-- Header -->
+  <text x="80" y="64" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="16" font-weight="700" letter-spacing="1.4">CERAMIC PLATE ILLUSTRATION CONVENTIONS (CORELDRAW / ARCHIVAL INK)</text>
+  <line x1="80" y1="80" x2="920" y2="80" stroke="#D5CBBF" stroke-width="1.2"/>
+
+  <!-- Panel 1: Orthographic Split-Axis Vessel Drawing -->
+  <g transform="translate(80 110)">
+    <rect width="460" height="470" fill="#FFFFFF" stroke="#D5CBBF" stroke-width="1.2"/>
+    <text x="20" y="30" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="600">A. SPLIT-AXIS ORTHOGRAPHIC SECTION &amp; ELEVATION</text>
+
+    <!-- Upper-left conventional light arrow -->
+    <g transform="translate(36 58)">
+      <path d="M0 0L24 24M24 24l-11-2M24 24l-2-11" stroke="#9A4326" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="0" y="42" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11">LIGHTING (UPPER LEFT)</text>
+    </g>
+
+    <!-- Rim-stance horizontal bar & centre axis -->
+    <line x1="92" y1="140" x2="368" y2="140" stroke="#231F1D" stroke-width="1.8"/>
+    <line x1="230" y1="112" x2="230" y2="395" stroke="#595048" stroke-width="1.2" stroke-dasharray="6 4 1.5 4"/>
+
+    <!-- Left section with deliberate rim-line gap (y=140 top line, section lip starts at x=122) -->
+    <!-- Notice gap between rim T-bar (x=92..118,230) and interior profile -->
+    <path d="M230 356H172c-4-4-5-11-3-16 8-18-38-45-38-92 0-34 12-62 5-88-3-10-9-16-14-18 6 0 11 4 14 14 7 25-2 54-2 88 0 42 40 69 40 94 0 5 2 9 7 10h49v8Z" fill="#231F1D" stroke="#231F1D" stroke-width="1.5" stroke-linejoin="round"/>
+
+    <!-- Right exterior elevation -->
+    <path d="M230 140h108c6 2 8 7 4 15-8 14-14 48-10 88 4 42-22 79-44 97-3 3-4 10 1 16H230" stroke="#231F1D" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Wheel turning horizontal lines on exterior -->
+    <line x1="234" y1="184" x2="331" y2="184" stroke="#877B6E" stroke-width="1"/>
+    <line x1="234" y1="226" x2="331" y2="226" stroke="#877B6E" stroke-width="1"/>
+    <line x1="234" y1="276" x2="323" y2="276" stroke="#877B6E" stroke-width="1"/>
+    <!-- Exterior lug/handle profile -->
+    <path d="M332 174c24 0 34 18 28 42-4 16-14 26-26 30" stroke="#9A4326" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M331 186c14 0 21 11 17 26-2.5 9.5-8.5 16-16 18" stroke="#9A4326" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Callout: Rim-line gap -->
+    <circle cx="122" cy="142" r="14" stroke="#9A4326" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <line x1="110" y1="154" x2="72" y2="195" stroke="#9A4326" stroke-width="1.2"/>
+    <text x="20" y="212" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">DELIBERATE</text>
+    <text x="20" y="226" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">RIM-LINE GAP</text>
+
+    <!-- Labels inside frame -->
+    <text x="115" y="420" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="600">SECTION (LEFT)</text>
+    <text x="252" y="420" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="600">ELEVATION (RIGHT)</text>
+    <text x="180" y="102" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="11">CENTRE AXIS</text>
+  </g>
+
+  <!-- Panel 2: Section Fills & Fabric Recording Key -->
+  <g transform="translate(570 110)">
+    <rect width="350" height="225" fill="#FFFFFF" stroke="#D5CBBF" stroke-width="1.2"/>
+    <text x="18" y="30" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="600">B. SECTION FILL &amp; BREAK CONVENTIONS</text>
+
+    <!-- Solid Wheel-made section sample -->
+    <path d="M30 62c18 0 18 18 14 44-3 18 8 42 18 52h-16c-12-14-20-34-16-54 3-16 0-30-8-34v-8h8Z" fill="#231F1D" stroke="#231F1D" stroke-width="1.4"/>
+    <text x="90" y="84" fill="#231F1D" font-family="sans-serif" font-size="14" font-weight="600">Solid Ink Section Fill</text>
+    <text x="90" y="104" fill="#595048" font-family="sans-serif" font-size="12.5">Wheel-thrown wares &amp; standardised plates</text>
+
+    <!-- Hatched Handmade section sample -->
+    <path d="M30 132c14 0 14 14 10 34-2 15 6 32 14 40H40c-9-11-16-25-12-42 2-12 0-22-6-25v-7h8Z" fill="#EFE9DD" stroke="#231F1D" stroke-width="1.4"/>
+    <path d="M26 142l12 6M28 156l12 6M27 170l12 6M29 184l13 6M36 197l12 6" stroke="#9A4326" stroke-width="1.3"/>
+    <!-- Incomplete sherd break parallel ticks -->
+    <line x1="36" y1="210" x2="46" y2="210" stroke="#231F1D" stroke-width="1.3"/>
+    <line x1="48" y1="210" x2="58" y2="210" stroke="#231F1D" stroke-width="1.3"/>
+
+    <text x="90" y="152" fill="#231F1D" font-family="sans-serif" font-size="14" font-weight="600">Hatched Fill &amp; Break Ticks</text>
+    <text x="90" y="172" fill="#595048" font-family="sans-serif" font-size="12.5">Handmade prehistoric / mound ceramics;</text>
+    <text x="90" y="189" fill="#595048" font-family="sans-serif" font-size="12.5">parallel ticks show incomplete base break</text>
+  </g>
+
+  <!-- Panel 3: Fabric & Catalogue Attributes -->
+  <g transform="translate(570 355)">
+    <rect width="350" height="225" fill="#FFFFFF" stroke="#D5CBBF" stroke-width="1.2"/>
+    <text x="18" y="30" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="600">C. CATALOGUE METADATA FIELDS</text>
+    <g font-family="sans-serif" font-size="13.5" fill="#231F1D">
+      <text x="20" y="64"><tspan font-weight="700" fill="#9A4326">01.</tspan> Site / Survey Locus &amp; Inventory Code</text>
+      <text x="20" y="94"><tspan font-weight="700" fill="#9A4326">02.</tspan> Vessel Form, Rim Stance &amp; Diameter (cm)</text>
+      <text x="20" y="124"><tspan font-weight="700" fill="#9A4326">03.</tspan> Paste Colour (Munsell Soil Chart)</text>
+      <text x="20" y="154"><tspan font-weight="700" fill="#9A4326">04.</tspan> Mineral / Organic Temper &amp; Firing Core</text>
+      <text x="20" y="184"><tspan font-weight="700" fill="#9A4326">05.</tspan> Slip, Burnish &amp; Surface Treatment</text>
+    </g>
+    <text x="20" y="210" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="11">DRAWN 1:1 BY HAND · INKED IN CORELDRAW</text>
+  </g>
+
+  <!-- Footer Metric Scale Bar (0 - 5 cm) -->
+  <g transform="translate(80 618)">
+    <text x="0" y="-8" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="11">REPRESENTATIVE METRIC SCALE BAR (SCREEN-ZOOM SAFE)</text>
+    <rect x="0" y="0" width="44" height="10" fill="#231F1D"/>
+    <rect x="44" y="0" width="44" height="10" fill="#FFFFFF" stroke="#231F1D" stroke-width="1.2"/>
+    <rect x="88" y="0" width="44" height="10" fill="#231F1D"/>
+    <rect x="132" y="0" width="44" height="10" fill="#FFFFFF" stroke="#231F1D" stroke-width="1.2"/>
+    <rect x="176" y="0" width="44" height="10" fill="#231F1D"/>
+    <text x="0" y="28" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12">0</text>
+    <text x="41" y="28" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="12">1</text>
+    <text x="85" y="28" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="12">2</text>
+    <text x="129" y="28" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="12">3</text>
+    <text x="173" y="28" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="12">4</text>
+    <text x="212" y="28" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="700">5 cm</text>
+    <text x="645" y="18" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="11.5">PINAR CEYLAN · ARCHIVAL PLATE SPEC</text>
+  </g>
+</svg>

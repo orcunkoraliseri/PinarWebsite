@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" fill="none">
+  <rect width="1000" height="720" fill="#FCF9F4"/>
+  <rect x="24" y="24" width="952" height="672" stroke="#877B6E" stroke-width="1.5"/>
+  <path d="M40 48h16M48 40v16M944 48h16M952 40v16M40 672h16M48 664v16M944 672h16M952 664v16" stroke="#9A4326" stroke-width="1.6"/>
+
+  <!-- Header -->
+  <text x="72" y="62" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="15.5" font-weight="700" letter-spacing="1.2">ARCHAIC CEMETERY RECORDING TEMPLATE &amp; FOUR-PHASE ASSEMBLAGE MATRIX (N = 83 GRAVES)</text>
+  <text x="72" y="83" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11.5">URLA MUSEUM RESCUE CONTEXT (2024 TO 2025) · COORDINATES &amp; PARCEL NUMBERS REDACTED · ZERO HUMAN REMAINS SHOWN</text>
+  <line x1="72" y1="96" x2="928" y2="96" stroke="#D5CBBF" stroke-width="1.2"/>
+
+  <!-- Left Column: Redacted Standardised Grave Card -->
+  <g transform="translate(72 118)">
+    <rect width="380" height="474" fill="#FFFFFF" stroke="#877B6E" stroke-width="1.3"/>
+    <rect x="0" y="0" width="380" height="40" fill="#EFE9DD"/>
+    <line x1="0" y1="40" x2="380" y2="40" stroke="#877B6E" stroke-width="1.2"/>
+    <text x="16" y="25" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700">GRAVE RECORD CARD (TEMPLATE STRUCTURE)</text>
+
+    <g font-family="ui-monospace, Menlo, monospace" font-size="10.6" fill="#231F1D">
+      <text x="16" y="68" fill="#595048">PLAN SQUARE / SECTOR:</text>
+      <text x="172" y="68" fill="#9A4326" font-weight="700">[A1–B5 / REDACTED]</text>
+      <line x1="16" y1="78" x2="364" y2="78" stroke="#D5CBBF" stroke-width="1"/>
+
+      <text x="16" y="102" fill="#595048">CHRONOLOGICAL PHASE:</text>
+      <text x="172" y="102" font-weight="700">Phases I–IV (650–525 BC)</text>
+      <line x1="16" y1="112" x2="364" y2="112" stroke="#D5CBBF" stroke-width="1"/>
+
+      <text x="16" y="136" fill="#595048">UPPER / BASE LEVELS:</text>
+      <text x="172" y="136">Optical Datum Log (m ASL)</text>
+      <line x1="16" y1="146" x2="364" y2="146" stroke="#D5CBBF" stroke-width="1"/>
+
+      <text x="16" y="170" fill="#595048">BURIAL CONTAINER:</text>
+      <text x="172" y="170">Sarcophagus / Amphora / Pithos</text>
+      <line x1="16" y1="180" x2="364" y2="180" stroke="#D5CBBF" stroke-width="1"/>
+
+      <text x="16" y="204" fill="#595048">FINDS &amp; MUSEUM REG.:</text>
+      <text x="172" y="204">Finds Register &amp; Inventory</text>
+      <line x1="16" y1="214" x2="364" y2="214" stroke="#D5CBBF" stroke-width="1"/>
+    </g>
+
+    <!-- Orientation Rose + Schematic Container Plan Boxes -->
+    <text x="18" y="242" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600">CONTAINER ARCHETYPES (SCHEMATIC · NO SKELETON)</text>
+
+    <!-- Sarcophagus schematic -->
+    <g transform="translate(24 260)">
+      <rect x="0" y="8" width="96" height="44" rx="2" stroke="#231F1D" stroke-width="1.8" fill="#FCF9F4"/>
+      <rect x="7" y="15" width="82" height="30" stroke="#877B6E" stroke-width="1.2"/>
+      <text x="0" y="70" fill="#231F1D" font-family="sans-serif" font-size="11.5" font-weight="600">Terracotta</text>
+      <text x="0" y="84" fill="#231F1D" font-family="sans-serif" font-size="11.5" font-weight="600">Sarcophagus</text>
+    </g>
+
+    <!-- Amphora schematic -->
+    <g transform="translate(148 260)">
+      <path d="M18 14h20l10 8c14 0 24 8 24 18s-10 18-24 18l-10 8H18l4-10v-32l-4-10Z" stroke="#231F1D" stroke-width="1.8" fill="#FCF9F4"/>
+      <path d="M22 18c-8 0-12 4-12 8M22 62c-8 0-12-4-12-8" stroke="#9A4326" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="4" y="78" fill="#231F1D" font-family="sans-serif" font-size="11.5" font-weight="600">Amphora Burial</text>
+    </g>
+
+    <!-- Pithos schematic -->
+    <g transform="translate(262 260)">
+      <ellipse cx="42" cy="36" rx="34" ry="22" stroke="#231F1D" stroke-width="1.8" fill="#FCF9F4"/>
+      <rect x="74" y="23" width="12" height="26" stroke="#231F1D" stroke-width="1.6" fill="#FCF9F4"/>
+      <text x="4" y="78" fill="#231F1D" font-family="sans-serif" font-size="11.5" font-weight="600">Pithos Burial</text>
+    </g>
+
+    <!-- Orientation Axis Compass -->
+    <g transform="translate(24 378)">
+      <circle cx="32" cy="32" r="24" stroke="#877B6E" stroke-width="1.2"/>
+      <path d="M32 6v52M6 32h52" stroke="#D5CBBF" stroke-width="1"/>
+      <path d="M32 10l-4 10h8l-4-10Z" fill="#9A4326"/>
+      <text x="28" y="3" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="10" font-weight="700">N</text>
+      <text x="72" y="24" fill="#231F1D" font-family="sans-serif" font-size="12.5" font-weight="600">Orientation &amp; Closing Record</text>
+      <text x="72" y="42" fill="#595048" font-family="sans-serif" font-size="12">Compass bearing logged on card;</text>
+      <text x="72" y="58" fill="#595048" font-family="sans-serif" font-size="12">enclosure sealed with geotextile</text>
+      <text x="72" y="74" fill="#595048" font-family="sans-serif" font-size="12">&amp; 1,500–2,000 sandbags.</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Quantitative Assemblage Chart & Four-Phase Logic -->
+  <g transform="translate(478 118)">
+    <rect width="450" height="474" fill="#FFFFFF" stroke="#877B6E" stroke-width="1.3"/>
+    <rect x="0" y="0" width="450" height="40" fill="#EFE9DD"/>
+    <line x1="0" y1="40" x2="450" y2="40" stroke="#877B6E" stroke-width="1.2"/>
+    <text x="16" y="25" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700">ASSEMBLAGE BREAKDOWN (83 GRAVES TOTAL)</text>
+
+    <!-- Proportional Bar Chart (Max width 300px for 30 graves -> 10px per grave) -->
+    <g transform="translate(22 72)" font-family="sans-serif">
+      <!-- Bar 1: 27 Terracotta Sarcophagi -->
+      <text x="0" y="14" fill="#231F1D" font-size="13.5" font-weight="600">Terracotta Sarcophagi (n = 27 · 32.5%)</text>
+      <rect x="0" y="22" width="380" height="18" fill="#EFE9DD"/>
+      <rect x="0" y="22" width="325" height="18" fill="#9A4326"/>
+
+      <!-- Bar 2: 18 Amphora Burials -->
+      <text x="0" y="64" fill="#231F1D" font-size="13.5" font-weight="600">Amphora Burials (n = 18 · 21.7%)</text>
+      <rect x="0" y="72" width="380" height="18" fill="#EFE9DD"/>
+      <rect x="0" y="72" width="217" height="18" fill="#231F1D"/>
+
+      <!-- Bar 3: 15 Inhumations -->
+      <text x="0" y="114" fill="#231F1D" font-size="13.5" font-weight="600">Inhumation Burials (n = 15 · 18.1%)</text>
+      <rect x="0" y="122" width="380" height="18" fill="#EFE9DD"/>
+      <rect x="0" y="122" width="181" height="18" fill="#595048"/>
+
+      <!-- Bar 4: 13 Cremations -->
+      <text x="0" y="164" fill="#231F1D" font-size="13.5" font-weight="600">Cremation Burials (n = 13 · 15.7%)</text>
+      <rect x="0" y="172" width="380" height="18" fill="#EFE9DD"/>
+      <rect x="0" y="172" width="157" height="18" fill="#877B6E"/>
+
+      <!-- Bar 5: 10 Pithos Burials -->
+      <text x="0" y="214" fill="#231F1D" font-size="13.5" font-weight="600">Pithos Burials (n = 10 · 12.0%)</text>
+      <rect x="0" y="222" width="380" height="18" fill="#EFE9DD"/>
+      <rect x="0" y="222" width="120" height="18" fill="#B6765C"/>
+    </g>
+
+    <!-- Phasing Matrix Box -->
+    <g transform="translate(22 332)">
+      <rect width="406" height="118" fill="#FCF9F4" stroke="#D5CBBF" stroke-width="1.2"/>
+      <text x="14" y="24" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">FOUR-PHASE RELATIVE SEQUENCE (FINAL REPORT SYNTHESIS)</text>
+      <text x="14" y="48" fill="#231F1D" font-family="sans-serif" font-size="11.4">• Phasing anchored by stratigraphic levels, enclosure walls &amp; cuts.</text>
+      <text x="14" y="70" fill="#231F1D" font-family="sans-serif" font-size="11.4">• Typology correlated across container type, fabric &amp; grave goods.</text>
+      <text x="14" y="92" fill="#231F1D" font-family="sans-serif" font-size="11.4">• Cremation pottery washed, sorted &amp; registered in museum system.</text>
+    </g>
+  </g>
+
+  <!-- Footer Attribution Band -->
+  <g transform="translate(72 624)">
+    <line x1="0" y1="0" x2="856" y2="0" stroke="#D5CBBF" stroke-width="1.2"/>
+    <text x="0" y="28" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="11.5">BABAO &amp; CIFA COMPLIANT ALTERNATIVE · SUMMARY QUANTIFICATION FROM VERIFIED WORK RECORD</text>
+    <text x="720" y="28" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="11.5" font-weight="700">PLATE E4 · PINAR CEYLAN</text>
+  </g>
+</svg>
