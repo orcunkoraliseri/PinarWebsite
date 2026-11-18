@@ -23,7 +23,7 @@ Then visit `http://localhost:8000`.
 1. Push the `main` branch to `https://github.com/orcunkoraliseri/PinarWebsite.git`.
 2. In the GitHub repository, open **Settings -> Pages**.
 3. Under **Build and deployment**, set **Source** to **Deploy from a branch**, select **Branch: `main`** and folder **`/ (root)`**, and click **Save**.
-4. The site publishes to `https://orcunkoraliseri.github.io/PinarWebsite/` (the `.nojekyll` file ensures static assets serve without Jekyll processing).
+4. The site publishes to `https://pinarceylan.com/` (the `.nojekyll` file ensures static assets serve without Jekyll processing).
 
 ## Included Visual Plates & Assets
 
