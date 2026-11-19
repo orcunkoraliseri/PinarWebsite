@@ -24,7 +24,9 @@ if (header && inner && menu) {
     const wasOpen = menu.matches(":popover-open, .\\:popover-open");
 
     header.classList.add("is-measuring", "is-wide");
-    const fitsInline = inner.scrollWidth <= inner.clientWidth;
+    const fitsInline =
+      inner.scrollWidth <= inner.clientWidth &&
+      inner.scrollWidth <= header.clientWidth;
 
     if (fitsInline) {
       menu.removeAttribute("popover");
@@ -51,10 +53,26 @@ if (header && inner && menu) {
 
   ro.observe(header);
   ro.observe(menu);
+  const controls = document.querySelector(".header-controls");
+  if (controls) {
+    ro.observe(controls);
+  }
 
   // Initial measurement pass
   lastHeaderWidth = 0;
   updateNavLayout();
+}
+
+// Preserve current section hash when switching between English and Turkish pages.
+for (const langLink of document.querySelectorAll("[data-lang-link]")) {
+  langLink.addEventListener("click", () => {
+    if (!window.location.hash || !(langLink instanceof HTMLAnchorElement)) {
+      return;
+    }
+    const url = new URL(langLink.href, window.location.href);
+    url.hash = window.location.hash;
+    langLink.href = url.href;
+  });
 }
 
 // Native modal plate zoom lightbox with closedby="any" fallback

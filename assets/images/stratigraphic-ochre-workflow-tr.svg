@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" fill="none">
+  <rect width="1000" height="720" fill="#FCF9F4"/>
+  <rect x="24" y="24" width="952" height="672" stroke="#877B6E" stroke-width="1.5"/>
+  <path d="M40 48h16M48 40v16M944 48h16M952 40v16M40 672h16M48 664v16M944 672h16M952 664v16" stroke="#9A4326" stroke-width="1.6"/>
+
+  <!-- Header -->
+  <text x="72" y="62" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="14.5" font-weight="700" letter-spacing="1.1">STRATİGRAFİK KONTROL SONDAJI VE DİJİTAL LOKUS-KOVA KAYIT İŞ AKIŞI</text>
+  <text x="72" y="83" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11">METODOLOJİK ŞEMA · SAHA VE OCHRE KAYIT MANTIĞINI GÖSTEREN ALAN BAĞIMSIZ ŞABLON</text>
+  <line x1="72" y1="96" x2="928" y2="96" stroke="#D5CBBF" stroke-width="1.2"/>
+
+  <!-- Left Panel: 5 m Grid Plan + Control Sondage Baulk Profile -->
+  <g transform="translate(72 118)">
+    <rect width="450" height="474" fill="#FFFFFF" stroke="#877B6E" stroke-width="1.3"/>
+    <rect x="0" y="0" width="450" height="40" fill="#EFE9DD"/>
+    <line x1="0" y1="40" x2="450" y2="40" stroke="#877B6E" stroke-width="1.2"/>
+    <text x="16" y="25" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="700">A. 5 M PLAN KARESİ VE KONTROL SONDAJI KESİTİ</text>
+
+    <!-- 5 m plan grid schematic -->
+    <g transform="translate(36 62)">
+      <text x="0" y="0" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="10.5">PLAN GÖRÜNÜMÜ: 2 x 2 M KONTROL SONDAJLI 5 M GRİD</text>
+      <rect x="0" y="14" width="378" height="142" stroke="#231F1D" stroke-width="1.6" fill="#FCF9F4"/>
+      <line x1="126" y1="14" x2="126" y2="156" stroke="#877B6E" stroke-width="1" stroke-dasharray="4 3"/>
+      <line x1="252" y1="14" x2="252" y2="156" stroke="#877B6E" stroke-width="1" stroke-dasharray="4 3"/>
+      <line x1="0" y1="85" x2="378" y2="85" stroke="#877B6E" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- Control sondages cut inside grid -->
+      <rect x="34" y="28" width="56" height="42" stroke="#9A4326" stroke-width="1.8" fill="#9A4326" fill-opacity="0.12"/>
+      <rect x="160" y="99" width="56" height="42" stroke="#9A4326" stroke-width="1.8" fill="#9A4326" fill-opacity="0.12"/>
+      <rect x="286" y="28" width="56" height="42" stroke="#9A4326" stroke-width="1.8" fill="#9A4326" fill-opacity="0.12"/>
+
+      <text x="38" y="53" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="700">2 x 2 m</text>
+      <text x="164" y="124" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="700">2 x 2 m</text>
+      <text x="290" y="53" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="700">2 x 2 m</text>
+      <text x="346" y="148" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="10">5 m</text>
+    </g>
+
+    <!-- Baulk Section Schematic -->
+    <g transform="translate(36 254)">
+      <text x="0" y="0" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="10.5">ŞAHİT KESİTİ: TABAKALI VE TAŞINMIŞ DOLGU</text>
+      <line x1="0" y1="22" x2="378" y2="22" stroke="#231F1D" stroke-width="1.8"/>
+      <text x="6" y="39" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="10.5">ÜST YÜZEY / MODERN DOLGU</text>
+
+      <!-- Wall / Pit Cut Stratum -->
+      <path d="M0 54c88 6 172-5 248 2 48 4 86-2 130-1" stroke="#9A4326" stroke-width="1.8"/>
+      <rect x="24" y="64" width="26" height="14" stroke="#877B6E" stroke-width="1.2" fill="#EFE9DD"/>
+      <rect x="54" y="64" width="24" height="14" stroke="#877B6E" stroke-width="1.2" fill="#EFE9DD"/>
+      <rect x="82" y="64" width="22" height="14" stroke="#877B6E" stroke-width="1.2" fill="#EFE9DD"/>
+      <text x="116" y="75" fill="#231F1D" font-family="sans-serif" font-size="11.5">Kerpiç duvar / ikincil buluntulu dolgu</text>
+
+      <!-- Pit Cut Line -->
+      <path d="M0 106h168c12 0 18 32 34 32s22-32 36-32h140" stroke="#231F1D" stroke-width="1.8"/>
+      <text x="8" y="100" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="10.5">TABAN DÜZEYİ / ÇUKUR KESİT SINIRI</text>
+
+      <!-- Sondage to Sterile Natural -->
+      <path d="M0 162c95-3 190 4 285-1 30-2 60 1 93 2" stroke="#877B6E" stroke-width="1.5"/>
+      <path d="M20 186l10-10M56 186l10-10M92 186l10-10M300 186l10-10M332 186l10-10M364 186l10-10" stroke="#877B6E" stroke-width="1.2"/>
+      <text x="110" y="185" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="700">STERİL ANA TOPRAK SEVİYESİ</text>
+    </g>
+  </g>
+
+  <!-- Right Panel: Digital OCHRE Locus & Pail Chain -->
+  <g transform="translate(548 118)">
+    <rect width="380" height="474" fill="#FFFFFF" stroke="#877B6E" stroke-width="1.3"/>
+    <rect x="0" y="0" width="380" height="40" fill="#EFE9DD"/>
+    <line x1="0" y1="40" x2="380" y2="40" stroke="#877B6E" stroke-width="1.2"/>
+    <text x="16" y="25" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="700">B. LOKUS VE KOVA KAYIT ZİNCİRİ</text>
+
+    <!-- 5 connected workflow boxes -->
+    <g transform="translate(26 62)">
+      <rect width="328" height="62" rx="3" fill="#FCF9F4" stroke="#877B6E" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">01 · KAZI BİRİMİ / AÇMA</text>
+      <text x="14" y="45" fill="#231F1D" font-family="sans-serif" font-size="12.5">Grid kotları, köşe bağlantıları, işçi iş dağılımı</text>
+
+      <line x1="164" y1="62" x2="164" y2="82" stroke="#9A4326" stroke-width="1.6"/>
+      <rect y="82" width="328" height="62" rx="3" fill="#FCF9F4" stroke="#877B6E" stroke-width="1.2"/>
+      <text x="14" y="105" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">02 · OCHRE STRATİGRAFİK LOKUS</text>
+      <text x="14" y="127" fill="#231F1D" font-family="sans-serif" font-size="12.5">Duvar, dolgu, taban veya çukur + Harris ilişkisi</text>
+
+      <line x1="164" y1="144" x2="164" y2="164" stroke="#9A4326" stroke-width="1.6"/>
+      <rect y="164" width="328" height="62" rx="3" fill="#FCF9F4" stroke="#877B6E" stroke-width="1.2"/>
+      <text x="14" y="187" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">03 · KOVA / BULUNTU VE ÖRNEK LİSTESİ</text>
+      <text x="14" y="209" fill="#231F1D" font-family="sans-serif" font-size="12.5">Seramik, karbon, flotasyon ve fotoğraf etiketleri</text>
+
+      <line x1="164" y1="226" x2="164" y2="246" stroke="#9A4326" stroke-width="1.6"/>
+      <rect y="246" width="328" height="62" rx="3" fill="#FCF9F4" stroke="#877B6E" stroke-width="1.2"/>
+      <text x="14" y="269" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">04 · DEPO VE HAMUR SINIFLAMA</text>
+      <text x="14" y="291" fill="#231F1D" font-family="sans-serif" font-size="12.5">Yıkama, Munsell ve hamur notları, kasa eşleştirme</text>
+
+      <line x1="164" y1="308" x2="164" y2="328" stroke="#9A4326" stroke-width="1.6"/>
+      <rect y="328" width="328" height="62" rx="3" fill="#EFE9DD" stroke="#9A4326" stroke-width="1.4"/>
+      <text x="14" y="351" fill="#9A4326" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">05 · İNGİLİZCE RAPOR VE KAPANIŞ</text>
+      <text x="14" y="373" fill="#231F1D" font-family="sans-serif" font-size="12.5">Haftalık açma raporları, evreli duvarlar, arşiv</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(72 624)">
+    <line x1="0" y1="0" x2="856" y2="0" stroke="#D5CBBF" stroke-width="1.2"/>
+    <text x="0" y="28" fill="#595048" font-family="ui-monospace, Menlo, monospace" font-size="10.5">METODOLOJİK ÖZET LEVHASI · TELL TAYİNAT (OCHRE / İNGİLİZCE RAPORLAMA) VE URLA İŞ AKIŞI</text>
+    <text x="704" y="28" fill="#231F1D" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700">LEVHA E1 · PINAR CEYLAN</text>
+  </g>
+</svg>
